@@ -1,4 +1,4 @@
-body
+ body
 {
 	background-color: #fff;
 	padding:0px;
@@ -15,7 +15,7 @@ input, button
 }
 .main-div, .loggedin-div
 {
-	width:25%;
+	width:20%;
 	margin:0px auto;
 	margin-top:150px;
 	padding:20px;
@@ -43,11 +43,11 @@ input, button
 	-moz-transition:0.3s;
 
 }
-.main-div button
+.main-div button, .loggedin-div button
 {
 	background-color:#5d8ffc;
 	color:#fff;
-	border:0px;
+	border:1px solid #5d8ffc;
 	border-radius:5px;
 	padding:15px;
 	display: block;
@@ -57,7 +57,7 @@ input, button
 	-moz-transition:0.3s;
 
 }
-.main-div button:hover
+.main-div button:hover, .loggedin-div button:hover
 {
 	background:#fff;
 	color:#5d8ffc;
