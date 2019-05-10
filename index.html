@@ -2,21 +2,28 @@
 <html>
 <head><title>firebase web1</title>
 	<link rel='stylesheet' href="index.css">
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-auth.js"></script>
+
+ <meta charset="UTF-8"> 
+
 
 </head>
 <body>
-	<div id = "login-div" class='main-div'>
+	<div id = "login_div" class='main-div'>
 		<h3>firebase web application example</h3>	
 		<input type='emial' placeholder="email.." id ="email_field"/>
 		<input type='password' placeholder="password..." id="password_field" />
 
 		<button onclick='login()'>log in</button>
 	</div>
-	<div id="user-div" class='loggedin-div'>welcome to firebase login application, successfully loged in
+	<div id="user_div" class='loggedin-div'>welcome to firebase login application, successfully loged in
 		<button>log out</button>
 	</div>
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script>
+	<!-- The core Firebase JS SDK is always required and must be listed first 
+<script src="https://www.gstatic.com/firebasejs/6.0.1/firebase-app.js"></script> -->
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#config-web-app -->
